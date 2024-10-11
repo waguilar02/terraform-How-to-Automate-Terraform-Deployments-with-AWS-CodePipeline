@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "terraform-codepipline-bucket"
+    bucket         = "talentotech-will"
     key            = "terraform.tfstate"
     region         = "us-east-1"
   }
