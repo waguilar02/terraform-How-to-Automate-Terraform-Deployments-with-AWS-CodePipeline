@@ -15,7 +15,7 @@ variable "key_name" {
 
 variable "s3_bucket_name" {
   description = "Name of the S3 bucket for remote state"
-  default = "terraform-codepipline-bucket"
+  default = "talentotech-will"
 }
 
 variable "name" {
